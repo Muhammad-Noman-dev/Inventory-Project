@@ -2,8 +2,7 @@ import React, { forwardRef } from "react";
 import "./Receipt58mm.css";
 
 const Receipt58mm = forwardRef(({ invoice }, ref) => {
-  // Agar invoice nahi hai to empty div render karein (ref abhi bhi attach rahega)
-  // Isse na to red error text screen pe dikhega, na hi console error bar bar fire hoga
+  
   if (!invoice) {
     return <div ref={ref}></div>;
   }
@@ -12,12 +11,11 @@ const Receipt58mm = forwardRef(({ invoice }, ref) => {
     <div ref={ref} className="receipt-80mm">
       {/* Header */}
       <div className="text-center mb-4 border-b pb-3">
-        <h1 className="text-xl font-bold tracking-wider">ASHFLEA</h1>
-        <p className="text-xs mt-1">borrowvibes@gmail.com</p>
-        <p className="text-xs">0318-7020058</p>
+        <h1 className="text-xl font-bold tracking-wider">Noman-Dev</h1>
+        <p className="text-xs mt-1">nomi.qasim7788@gmail.com</p>
+        <p className="text-xs">0000-0000000</p>
         <p className="text-xs mt-2 leading-tight">
-          Shop G-31, Kohinoor 1 Plaza<br />
-          Basement, Opposite Executive Passport Office
+         Muhammad-Noman-dev
         </p>
       </div>
 
