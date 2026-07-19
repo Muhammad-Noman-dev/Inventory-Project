@@ -27,8 +27,7 @@ const server = http.createServer(app);
 // CORS (Sabse Pehle)
 const allowedOrigins = [
   process.env.FRONTEND_URL,
-  "http://localhost:5173",
-  "http://localhost:5174",
+  "https://inventory-project-k9xx.vercel.app"
 ].filter(Boolean);
 
 app.use(cors({
