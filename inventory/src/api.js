@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://your-backend-url.vercel.app/api',
+  baseURL: 'https://inventory-project-gold.vercel.app',
   headers: {
     'Content-Type': 'application/json',
   },
