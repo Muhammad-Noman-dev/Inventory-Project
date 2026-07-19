@@ -1,0 +1,23 @@
+
+        .sidebar {
+          transition: width 0.4s ease;
+          box-shadow: 4px 0 15px rgba(0, 0, 0, 0.08);
+        }
+        .menu-item {
+          transition: all 0.3s ease;
+        }
+        .menu-item:hover {
+          transform: translateX(8px);
+        }
+        .menu-item.active {
+          background: linear-gradient(90deg, #3b82f6, #6366f1);
+          color: white;
+        }
+        .mobile-menu {
+          animation: slideIn 0.4s ease forwards;
+        }
+        @keyframes slideIn {
+          from { transform: translateX(-100%); }
+          to { transform: translateX(0); }
+        }
+      
